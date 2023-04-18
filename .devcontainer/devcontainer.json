@@ -7,14 +7,19 @@
   "updateContentCommand": "npm install",
   "postCreateCommand": "",
   "postAttachCommand": {
-    "server": "npm start"
+    "server": "npm start"  
   },
   "customizations": {
     "codespaces": {
       "openFiles": [
         "src/App.js"
       ]
-    }
+	},
+	"vscode": {
+		"extensions": [
+			"ms-python.vscode-pylance"
+		]
+	}
   },
   "portsAttributes": {
     "3000": {
